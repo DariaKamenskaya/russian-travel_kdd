@@ -2,11 +2,11 @@
     font-size: 16px;
     line-height: 18px;
     text-decoration: none;
-    color: rgb(255, 255, 255, 1.0)
+    color: rgb(255, 255, 255, 1.0);
 }
 
 .footer__links__text:hover {
-    color: rgb(255, 255, 255, 0.8)
+    color: rgb(255, 255, 255, 0.8);
 }
 
   @media screen and (max-width: 1280px) {
