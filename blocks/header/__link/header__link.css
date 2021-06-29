@@ -1,5 +1,5 @@
 
-.header__lang__link {
+.header__link {
     margin: 0 0 0;
     font-size: 24px;
     line-height: 28px;
@@ -9,14 +9,14 @@
 
 
 @media screen and (max-width: 1280px) {
-    .header__lang__link {
+    .header__link {
         font-size: 24px;
         line-height: 28px;
     }
   }
   
   @media screen and (max-width: 1024px) {
-    .header__lang__link {
+    .header__link {
         font-size: 24px;
         line-height: 28px;
     }
@@ -24,7 +24,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .header__lang__link {
+    .header__link {
         font-size: 18px;
         line-height: 20px;
     }
