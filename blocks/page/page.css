@@ -1,13 +1,36 @@
 .page {
-    min-width: 320px;
+    min-width: 1280px;
     /* выше установлена минимальная ширина страницы с учетом внутренних отступов */
-    /*max-width: 1600px;*/
+    max-width: 1700px;
     /* выше установили ограничение по максимальной ширине с учетом внутренних отступов*/
     margin: 0;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: Inter;
     background-color: black;
-    overflow:hidden;
-    overflow-y:hidden;  /*для вертикального*/
-    overflow-x:hidden;  /*для горизонтального*/
+    /*overflow:hidden;
+    overflow-y:hidden;*/  /*для вертикального*/
+    /*overflow-x:hidden;*/  /*для горизонтального*/
+  }
+
+  @media screen and (max-width: 1280px) {
+    .page {
+      min-width: 1024px;
+      max-width: 1280px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .page {
+      min-width: 768px;
+      max-width: 1024px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    .page {
+      min-width: 320px;
+      max-width: 768px;
+    }
+  
   }

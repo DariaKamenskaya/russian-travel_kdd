@@ -14,7 +14,7 @@
   }
   
   @media screen and (max-width: 1024px) {
-    .lead__subtitle {
+    .lead__image {
         max-height: 430px;
         max-width: 768px;
     }
@@ -22,9 +22,9 @@
   }
   
   @media screen and (max-width: 768px) {
-    .lead__subtitle {
-        max-height: 320px;
-        max-width: 200px;
+    .lead__image {
+        max-height: 200px;
+        max-width: 320px;
     }
   
   }
