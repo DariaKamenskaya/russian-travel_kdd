@@ -23,7 +23,10 @@
     
   @media screen and (max-width: 320px) {
     .place__image {
-        max-height: 320px;
+        /*max-height: 320px;*/
         margin-top: 32px;
+        width: 100%;
+        object-fit: cover;
+        /*max-width: 320px;*/
       }
   }

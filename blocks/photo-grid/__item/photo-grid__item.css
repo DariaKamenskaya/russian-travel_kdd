@@ -1,20 +1,8 @@
 .photo-grid__item {
     margin: 0;
-    max-width: 282px;
-    max-height: 210px;
+    /*max-width: 282px;
+    max-height: 210px; */
+    max-width: 100%;
+    object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
-    .photo-grid__item {
-      max-width: 300px;
-      max-height: 225px;
-    }
-  }
-
-  
-@media screen and (max-width: 768px) {
-  .photo-grid__item {
-    max-width: 352px;
-    max-height: 264px;
-  }
-}

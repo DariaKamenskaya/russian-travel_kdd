@@ -24,3 +24,9 @@
       min-height: 500px;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .cover__overlay {
+      min-height: 200px;
+    }
+  }

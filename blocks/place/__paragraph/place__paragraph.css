@@ -14,8 +14,9 @@
   
   @media screen and (max-width: 1024px) {
     .place__paragraph {
-        max-width: 452px;
+        max-width: 452px; 
         margin-left: 32px;
+        /*width: calc(60% - 32px);*/
     }
   
   }
@@ -25,6 +26,7 @@
     .place__paragraph {
         max-width: 352px;
         margin-left: 28px;
+        /*width: calc(60% - 28px);*/
     }
   
   }
@@ -32,6 +34,9 @@
   @media screen and (max-width: 320px) {
     .place__paragraph {
         margin-left: 16px;
+        max-width: 288px;
+        /*width: calc(60% - 16px);*/
+        margin-top: 30px;
     }
   
   }

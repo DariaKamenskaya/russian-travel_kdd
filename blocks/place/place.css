@@ -18,3 +18,9 @@
         margin-bottom: 77px;
     }
   } 
+
+  @media screen and (max-width: 320px) {
+    .place {
+        margin-bottom: 60px;
+    }
+  } 
