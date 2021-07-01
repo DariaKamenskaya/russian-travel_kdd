@@ -6,21 +6,6 @@
 
 
 
-@media screen and (max-width: 1280px) {
-    .header__logo {
-        max-width: 176px;
-        max-height: 52px;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .header__logo {
-        max-width: 176px;
-        max-height: 52px;
-    }
-  
-  }
-
 @media screen and (max-width: 768px) {
     .header__logo {
       max-width: 142px;

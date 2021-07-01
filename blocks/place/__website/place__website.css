@@ -9,13 +9,6 @@
     justify-content: flex-end;
 }
 
-/*@media screen and (max-width: 1280px) {
-    .place__website {
-      margin-right: 0px;
-      margin-left: 0px;
-      margin-top: 105px;
-    }
-  }*/
   
   @media screen and (max-width: 1024px) {
     .place__website {

@@ -3,11 +3,6 @@
     width: calc(100 - 148px - 148px);
 }
 
-/*@media screen and (max-width: 1280px) {
-    .places {
-        margin: 0 48px 0;
-    }
-  }*/
   
   @media screen and (max-width: 1024px) {
     .places {

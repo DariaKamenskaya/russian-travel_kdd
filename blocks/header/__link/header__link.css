@@ -17,20 +17,6 @@
 }
 
 
-@media screen and (max-width: 1280px) {
-    .header__link {
-        font-size: 24px;
-        line-height: 28px;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .header__link {
-        font-size: 24px;
-        line-height: 28px;
-    }
-  
-  }
   
   @media screen and (max-width: 768px) {
     .header__link {

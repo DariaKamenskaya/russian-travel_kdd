@@ -10,20 +10,10 @@
   position: relative;
 }
 
-/*@media screen and (max-width: 1280px) {
-  .header {
-    padding: 28px 48px 55px;
-    /*min-width: 984px;
-    max-width: 1280px;
-  }
-}*/
 
 @media screen and (max-width: 1024px) {
   .header {
     padding: 25px 48px 48px;
-    /*width: 85%;*/
-    /*min-width: 728px;
-    max-width: 1024px;*/
   }
 
 }
