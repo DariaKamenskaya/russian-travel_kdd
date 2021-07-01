@@ -3,19 +3,20 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
-    width: 100%;
-    max-width: 1184px;
+    width: calc(100% - 48px - 48px);
+    min-height: 745px;
+    /*max-width: 1184px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {
     .cover {
         margin: 90px 0px 0;
     }
-  }
+  }*/
   
   
   @media screen and (max-width: 768px) {

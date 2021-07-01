@@ -8,20 +8,6 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1280px) {
-    .footer__links {
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .footer__links {
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-  
-  }
   
   @media screen and (max-width: 768px) {
     .footer__links {

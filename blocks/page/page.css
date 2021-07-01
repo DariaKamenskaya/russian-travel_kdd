@@ -1,5 +1,5 @@
 .page {
-    min-width: 1275px;
+    min-width: 320px;
     /* выше установлена минимальная ширина страницы с учетом внутренних отступов */
     max-width: 1700px;
     /* выше установили ограничение по максимальной ширине с учетом внутренних отступов*/
@@ -9,7 +9,7 @@
     background-color:  rgba(42, 44, 47, 1);
   }
 
-  @media screen and (max-width: 1280px) {
+ /* @media screen and (max-width: 1280px) {
     .page {
       min-width: 1009px;
       max-width: 1280px;
@@ -30,4 +30,4 @@
       max-width: 768px;
     }
   
-  }
+  } */

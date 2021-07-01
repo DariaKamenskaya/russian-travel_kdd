@@ -1,7 +1,7 @@
 .header {
   margin: 0;
   padding: 28px 48px 56px;
-  width: 90%;
+  width: calc(100% -48px - 48px);
   /*max-width: 1600px;
   min-width: 1240px;*/
   display: flex;

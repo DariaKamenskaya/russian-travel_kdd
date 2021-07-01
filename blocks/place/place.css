@@ -4,5 +4,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: flex-end;
+    /*align-items: flex-end;*/
 }

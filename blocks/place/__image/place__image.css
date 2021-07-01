@@ -2,14 +2,15 @@
     margin: 0;
     max-height: 460px;
     margin-top: 48px;
+    /*margin-left: 115px;*/
 }
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {
     .place__image {
       max-height: 440px;
       margin-top: 48px;
     }
-  }
+  } */
   
   @media screen and (max-width: 1024px) {
     .place__image {

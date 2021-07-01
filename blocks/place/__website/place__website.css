@@ -1,21 +1,21 @@
 .place__website {
     margin: 0;
-    margin-top: 105px;
-    margin-left: 0px;
+    /*margin-top: 105px;*/
+    margin-left: 40px;
     margin-right: 0px;
-    min-width: 400px;
+    width: 456px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {
     .place__website {
       margin-right: 0px;
       margin-left: 0px;
       margin-top: 105px;
     }
-  }
+  }*/
   
   @media screen and (max-width: 1024px) {
     .place__website {

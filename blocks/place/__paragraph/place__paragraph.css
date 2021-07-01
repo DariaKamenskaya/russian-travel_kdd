@@ -3,7 +3,8 @@
     margin-top: 48px;
     margin-left: 40px;
     margin-right: 0;
-    width: 45%;
+    /*width: calc(60% - 40px);*/
+    max-width: 484px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -11,14 +12,14 @@
 }
 
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {
     .place__paragraph {
         width: 45%;
         margin-left: 40px;
         margin-right: 0;
         margin-top: 48px;
     }
-  }
+  } */
   
   @media screen and (max-width: 1024px) {
     .place__paragraph {

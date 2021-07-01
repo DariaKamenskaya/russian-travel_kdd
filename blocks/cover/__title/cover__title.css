@@ -8,11 +8,11 @@
 }
 
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {
     .cover__title {
       padding: 195px 232px 32px;
     }
-  }
+  }*/
   
   @media screen and (max-width: 1024px) {
     .cover__title {

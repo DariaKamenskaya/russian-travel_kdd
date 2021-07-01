@@ -1,13 +1,14 @@
 .lead__caption {
   margin: 8px 0 0;
+  display: flex;
+  align-self: flex-start;
   font-size: 10px;
   line-height: 14px;
   color: #FFFFFF;
-  display: flex;
-  align-self: flex-start;
   padding-left: 0px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  font-weight: normal;
 }
 
 
@@ -15,7 +16,7 @@
     .lead__caption {
       font-size: 12px;
       line-height: 14px;
-      padding-left: 10px;
+      /*padding-left: 10px;*/
     }
   }
   
