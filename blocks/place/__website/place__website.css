@@ -19,11 +19,10 @@
   
   @media screen and (max-width: 1024px) {
     .place__website {
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 105px;
+        margin-left: 32px;
+        width: 450px;
       }
-  }
+  } 
   
   @media screen and (max-width: 768px) {
     .place__website {

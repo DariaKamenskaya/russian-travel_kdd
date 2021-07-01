@@ -6,3 +6,9 @@
     justify-content: flex-start;
     /*align-items: flex-end;*/
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        margin-bottom: 70px;
+    }
+  } 

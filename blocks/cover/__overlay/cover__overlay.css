@@ -1,6 +1,7 @@
 .cover__overlay {
     margin: 0;
     min-height: 745px;
+    width: calc(100%);
     color: #FFFFFF;
     text-decoration: none;
     background: rgb(42, 44, 47, .3);
@@ -10,3 +11,10 @@
 .cover__overlay:hover {
     background: rgb(42, 44, 47, .8);
 }
+
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+      min-height: 645px;
+    }
+  }

@@ -1,28 +1,27 @@
 .cover__title {
     margin: 0;
     padding: 247px 312px 32px;
+    width: calc(100% - 312px - 312px);
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-
-/*@media screen and (max-width: 1280px) {
-    .cover__title {
-      padding: 195px 232px 32px;
-    }
-  }*/
   
   @media screen and (max-width: 1024px) {
     .cover__title {
-        padding: 115px 104px 32px;
+        padding: 200px 104px 32px;
+        width: calc(100% - 104px - 104px);
       }
   }
   
   @media screen and (max-width: 768px) {
     .cover__title {
         padding: 33px 16px 16px;
+        width: calc(100% - 16px - 16px);
         font-size: 32px;
         line-height: 35px;
       }

@@ -14,7 +14,7 @@
   
   @media screen and (max-width: 1024px) {
     .place__image {
-        max-height: 340px;
+        max-height: 440px;
         margin-top: 48px;
       }
   }
