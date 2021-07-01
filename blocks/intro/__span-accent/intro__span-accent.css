@@ -1,0 +1,10 @@
+.intro__span-accent {
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    /*font-weight: normal;*/
+    font-weight: 400; /* как сказал старший студент*/
+    color: #FFFFFF;
+}
+
+
