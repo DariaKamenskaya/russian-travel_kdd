@@ -22,7 +22,7 @@
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
 /* block "photo-grid" */
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/photo-grid__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* block "places" */
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
