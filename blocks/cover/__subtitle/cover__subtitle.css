@@ -20,6 +20,14 @@
   
   @media screen and (max-width: 768px) {
     .cover__subtitle {
+        padding: 0px 160px 33px;
+        width: calc(100% - 160px - 160px);
+      }
+  }
+
+    
+  @media screen and (max-width: 320px) {
+    .cover__subtitle {
         padding: 0px 16px 33px;
         width: calc(100% - 16px - 16px);
         font-size: 14px;

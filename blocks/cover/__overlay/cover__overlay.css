@@ -18,3 +18,9 @@
       min-height: 645px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .cover__overlay {
+      min-height: 500px;
+    }
+  }

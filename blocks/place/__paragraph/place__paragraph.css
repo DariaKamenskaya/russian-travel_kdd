@@ -19,13 +19,19 @@
     }
   
   }
-  
+
+    
   @media screen and (max-width: 768px) {
     .place__paragraph {
-        width: 100%;
+        max-width: 352px;
+        margin-left: 28px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 320px) {
+    .place__paragraph {
         margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 32px;
     }
   
   }

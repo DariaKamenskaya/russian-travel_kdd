@@ -10,3 +10,11 @@
       max-height: 225px;
     }
   }
+
+  
+@media screen and (max-width: 768px) {
+  .photo-grid__item {
+    max-width: 352px;
+    max-height: 264px;
+  }
+}

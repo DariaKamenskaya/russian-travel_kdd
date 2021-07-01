@@ -14,3 +14,11 @@
     }
   
   }
+
+  @media screen and (max-width: 768px) {
+    .intro__text {
+        margin-right: 0px;
+        margin-bottom: 38px;
+    }
+  
+  } 

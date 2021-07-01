@@ -18,8 +18,18 @@
       }
   
   }
-  
+ 
+      
   @media screen and (max-width: 768px) {
+    .lead__caption {
+        padding-left: 24px;
+        margin-top: 2px;
+      }
+  
+  }
+
+    
+  @media screen and (max-width: 320px) {
     .lead__caption {
         font-size: 10px;
         line-height: 14px;

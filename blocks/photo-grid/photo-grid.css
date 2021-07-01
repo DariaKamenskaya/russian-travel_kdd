@@ -25,9 +25,10 @@
   
   @media screen and (max-width: 768px) {
     .photo-grid {
-        margin: 64px 16px 64px;
-        min-height: 2700px;
-        grid-template-columns: repeat(2, 290px);
+        margin: 88px 24px 88px;
+        min-height: 1665px;
+        width: calc(100% - 24px - 24px);
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
         /*grid-template-rows: repeat(auto-fit, 215px);*/
     } 
   }
