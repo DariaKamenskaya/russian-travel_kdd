@@ -1,5 +1,5 @@
 .page {
-    min-width: 100px;
+    min-width: 250px;
     /* выше установлена минимальная ширина страницы с учетом внутренних отступов */
     max-width: 1700px;
     /* выше установили ограничение по максимальной ширине с учетом внутренних отступов*/
@@ -7,7 +7,7 @@
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: Inter, Arial, sans-serif;
     background-color:  rgba(42, 44, 47, 1);
-    outline: 10px solid red;
+    /*outline: 10px solid red;*/
   }
 
  /* @media screen and (max-width: 1280px) {
