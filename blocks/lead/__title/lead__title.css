@@ -21,8 +21,17 @@
 
 @media screen and (max-width: 690px) {
   .lead__title {
-    font-size: 40px;
+    font-size: 34px;
     line-height: 44px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    padding: 0 16px 0;
+    width: calc(100% - 16px - 16px);
+    /*font-size: 40px; - текст не влезает в блок, не могу понять как ужать текст, чтобы он влез в блок */
   }
 
 }
