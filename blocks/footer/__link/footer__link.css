@@ -15,6 +15,12 @@
   color: rgb(255, 255, 255, 0.8);
 }
 
+@media screen and (max-width: 625px) {
+  .footer__link {
+    font-size: 10px;
+      }
+  }
+
 @media screen and (max-width: 560px) {
   .footer__link {
     font-size: 8px;

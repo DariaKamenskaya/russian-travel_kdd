@@ -6,6 +6,11 @@
 }
 
 
+@media screen and (max-width: 625px) {
+  .footer__copyright {
+    font-size: 10px;
+      }
+  }
 
 
   @media screen and (max-width: 560px) {
