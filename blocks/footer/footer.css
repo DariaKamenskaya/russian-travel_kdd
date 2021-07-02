@@ -19,9 +19,18 @@
     
   @media screen and (max-width: 768px) {
     .footer {
-      padding: 88px 24px 24px;
+      padding: 80px 24px 24px;
       width: calc(100% - 24px - 24px);
     }
+  
+  }
+
+  
+@media screen and (max-width: 560px) {
+  .footer {
+    padding: 88px 0px 24px;
+    width: 100%;
+      }
   
   }
   

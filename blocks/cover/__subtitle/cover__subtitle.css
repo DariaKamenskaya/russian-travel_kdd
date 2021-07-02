@@ -25,6 +25,30 @@
       }
   }
 
+  
+@media screen and (max-width: 520px) {
+  .cover__subtitle {
+      font-size: 18px;
+      line-height: 25px;
+    }
+}
+
+  
+@media screen and (max-width: 385px) {
+  .cover__subtitle {
+      font-size: 16px;
+      line-height: 20px;
+    }
+}
+
+  
+@media screen and (max-width: 340px) {
+  .cover__subtitle {
+      font-size: 15px;
+      line-height: 20px;
+    }
+}
+
     
   @media screen and (max-width: 320px) {
     .cover__subtitle {

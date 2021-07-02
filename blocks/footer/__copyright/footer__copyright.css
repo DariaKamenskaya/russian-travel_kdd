@@ -6,8 +6,20 @@
 }
 
 
-@media screen and (max-width: 320px) {
+
+
+  @media screen and (max-width: 560px) {
     .footer__copyright {
-      margin-top: 45px;
+      font-size: 5px;
+      line-height: 14px;
+        }
+    
     }
-  }
+
+    @media screen and (max-width: 320px) {
+      .footer__copyright {
+        margin-top: 45px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }

@@ -1,13 +1,13 @@
 .places {
     padding: 0 148px 0;
-    width: calc(100 - 148px - 148px);
+    width: calc(100% - 148px - 148px);
 }
 
   
   @media screen and (max-width: 1024px) {
     .places {
         padding: 0 50px 0;
-        width: calc(100 - 50px - 50px);
+        width: calc(100% - 50px - 50px);
     }
   
   }
@@ -15,7 +15,7 @@
   @media screen and (max-width: 768px) {
     .places {
         padding: 0 24px 0;
-        width: calc(100 - 24px - 24px);
+        width: calc(100% - 24px - 24px);
     } 
   
   }

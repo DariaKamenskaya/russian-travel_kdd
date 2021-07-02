@@ -15,7 +15,24 @@
   color: rgb(255, 255, 255, 0.8);
 }
 
+@media screen and (max-width: 560px) {
+  .footer__link {
+    font-size: 8px;
+    line-height: 14px;
+    margin: 0 8px 0 0;
+      }
+  
+  }
 
+
+  @media screen and (max-width: 340px) {
+    .footer__link {
+      font-size: 5px;
+      line-height: 8px;
+      margin: 0 2px 0 0;
+        }
+    
+    }
 
   
 @media screen and (max-width: 320px) {

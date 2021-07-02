@@ -30,13 +30,30 @@
     }
   
   }
+
+  @media screen and (max-width: 365px) {
+    .place__paragraph {
+        max-width: 250px;
+    }
+  
+  }
+
+  
+  @media screen and (max-width: 345px) {
+    .place__paragraph {
+        max-width: 200px;
+    }
+  
+  }
+
   
   @media screen and (max-width: 320px) {
     .place__paragraph {
         margin-left: 16px;
-        max-width: 288px;
+        margin-right: 16px;
+        max-width: 280px;
         /*width: calc(60% - 16px);*/
-        margin-top: 30px;
+        margin-top: 35px;
     }
   
   }

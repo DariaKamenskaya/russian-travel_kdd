@@ -18,3 +18,26 @@
         margin-bottom: 25px;
       }
   }
+
+      
+@media screen and (max-width: 440px) {
+  .place__text {
+      font-size: 12px;
+      line-height: 20px;
+    }
+}
+
+      
+@media screen and (max-width: 345px) {
+  .place__text {
+      font-size: 10px;
+      line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+}
