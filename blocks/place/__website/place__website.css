@@ -30,6 +30,6 @@
         margin-top: 32px;
         width: 288px;
         padding-left: 17px;
-        width: calc(100% - 17px);
+        /*width: calc(100% - 17px);*/
       }
   }
