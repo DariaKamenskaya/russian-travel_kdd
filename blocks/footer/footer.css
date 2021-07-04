@@ -26,18 +26,18 @@
   }
 
   
-@media screen and (max-width: 560px) {
+/*@media screen and (max-width: 560px) {
   .footer {
     padding: 88px 0px 24px;
     width: 100%;
       }
   
-  }
+  } */
   
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 700px) {
     .footer {
-      padding: 56px 16px 24px;
-      width: calc(100% - 16px - 16px);
+      padding: 56px 0px 24px 16px;
+      width: calc(100% - 16px);
       flex-direction: column;
       justify-content: flex-start;
       }
