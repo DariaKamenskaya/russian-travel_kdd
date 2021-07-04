@@ -1,34 +1,30 @@
 .page {
     min-width: 250px;
     /* выше установлена минимальная ширина страницы с учетом внутренних отступов */
-    max-width: 1700px;
+    max-width: 1280px;
     /* выше установили ограничение по максимальной ширине с учетом внутренних отступов*/
-    margin: 0;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
+    margin: 0 auto 0;
+    /* выше для экранов больше 1280px отцентрировали весь контент */
     font-family: Inter, Arial, sans-serif;
-    background-color:  rgba(42, 44, 47, 1);
-    /*outline: 10px solid red;*/
   }
 
- /* @media screen and (max-width: 1280px) {
+ /*@media screen and (max-width: 1279.95px) {
     .page {
-      min-width: 1009px;
-      max-width: 1280px;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .page {
-      min-width: 759px;
       max-width: 1024px;
     }
   
+  } 
+
+  @media screen and (max-width: 1023.95px) {
+    .page {
+      max-width: 768px;
+    }
+  
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767.95px) {
     .page {
-      min-width: 320px;
-      max-width: 768px;
+      max-width: 320px;
     }
   
   } */
