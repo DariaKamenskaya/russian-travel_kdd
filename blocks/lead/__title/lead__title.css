@@ -1,5 +1,5 @@
 .lead__title {
-  margin: 0 20px 0;
+  margin: 0 200px 0;
   text-align: center;
   font-weight: 900;
   font-size: 96px;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-    margin: 0;
+    margin: 0 60px 0;
   }
 
 }
@@ -29,8 +29,8 @@
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    padding: 0 16px 0;
-    width: calc(100% - 16px - 16px);
+    padding: 0 20px 0;
+    width: calc(100% - 20px - 20px);
     /*font-size: 40px; - текст не влезает в блок, не могу понять как ужать текст, чтобы он влез в блок */
   }
 

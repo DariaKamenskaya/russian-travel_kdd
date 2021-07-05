@@ -1,5 +1,5 @@
 .cover__title {
-    margin: 0;
+    margin: 0 auto 0;
     padding: 247px 312px 32px;
     width: calc(100% - 312px - 312px);
     font-size: 72px;
@@ -10,32 +10,132 @@
     justify-content: center;
 }
 
+
+@media screen and (max-width: 1279.90px) {
+  .cover__title {
+    padding: 200px 0 32px;
+    width: 40%;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+  .cover__title {
+    width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 1125px) {
+  .cover__title {
+    width: 50%;
+    }
+}
+
+/*@media screen and (max-width: 1110px) {
+  .cover__title {
+    width: 55%;
+    }
+}*/
+
   
   @media screen and (max-width: 1024px) {
     .cover__title {
-        padding: 200px 104px 32px;
-        width: calc(100% - 104px - 104px);
-      }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .cover__title {
-        padding: 115px 16px 35px;
-        width: calc(100% - 16px - 16px);
+        width: 50%;
       }
   }
 
-  @media screen and (max-width: 520px) {
+  
+  @media screen and (max-width: 1015px) {
+    .cover__title {
+      padding: 115px 0 35px;
+      width: 55%;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    .cover__title {
+      width: 60%;
+    }
+  }
+
+  @media screen and (max-width: 845px) {
+    .cover__title {
+      width: 65%;
+    }
+  } 
+
+  
+  @media screen and (max-width: 780px) {
+    .cover__title {
+        width: 70%;
+      }
+  }
+
+
+  @media screen and (max-width: 750px) {
     .cover__title {
         font-size: 42px;
         line-height: 45px;
+        padding: 24px 0px 16px;
+        width: 44%;
       }
   }
 
+  @media screen and (max-width: 670px) {
+    .cover__title {
+        width: 50%;
+      }
+  }
+
+  @media screen and (max-width: 590px) {
+    .cover__title {
+      width: 55%;
+      }
+  }
+
+  @media screen and (max-width: 540px) {
+    .cover__title {
+      width: 60%;
+      }
+  }
+
+  @media screen and (max-width: 495px) {
+    .cover__title {
+      width: 65%;
+      }
+  }
+
+
+  @media screen and (max-width: 455px) {
+    .cover__title {
+      font-size: 32px;
+      line-height: 35px;
+      width: 55%;
+      }
+  }
+
+  @media screen and (max-width: 410px) {
+    .cover__title {
+      width: 60%;
+      }
+  }
+
+  @media screen and (max-width: 375px) {
+    .cover__title {
+      width: 65%;
+      }
+  }
+
+  @media screen and (max-width: 345px) {
+    .cover__title {
+      width: 70%;
+      }
+  }
+
+
   @media screen and (max-width: 320px) {
     .cover__title {
-        padding: 24px 16px 16px;
-        font-size: 32px;
-        line-height: 35px;
+        padding: 24px 40px 16px;
+        width: calc(100% - 40px - 40px);
       }
   }
